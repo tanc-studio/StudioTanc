@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Tanc Studio</title>
+   <link rel="stylesheet" href="css/main.css">
+   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Spartan:100,200,300,400&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+   <script src="js/login.js"></script>
+</head>
+<body class="wrap"  id="page__content">
+   <header class="wrap">
+   <div class="navbar">
+      <div class="navbar__inner">
+
+         <!-- Logo  -->
+         <div class="navbar__left">
+            <a href="index.html">
+               <h1 class="logo">tanc&#46;studio</h1>
+            </a>
+         </div>
+
+         <div class="navbar__right">
+
+            <!-- Menu  -->
+            <input class="menu-toggle" type="checkbox">
+            <div class="hamburger">
+               <div class="hamburger-line"></div>
+            </div>
+
+            <!-- Login  -->
+            <a href="login.html" class="login"><span>Log in</span></a>
+
+            <div onclick="openNav()" class="filter">
+               <div class="filter-line"></div>
+            </div>
+
+            <aside class="sidenav" id="mySidenav">
+               <nav class="project-links">
+                  <a class="sidenav-close" onclick="closeNav()" href="#">Close</a>
+                  <ul class="project__links">
+                    <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                   <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                 <li><a href="#">Project Link</a></li>
+                  </ul>
+               </nav>
+            </aside>
+
+
+
+
+
+            <!-- Menu Content -->
+            <div class="menu__content">
+
+               <!-- Intro -->
+               <div class="intro__txt">
+                  <p>Studio T is a graphic design studio creating thoughtful and
+                     contemporary design solutions in the varied domain of commerce and culture.
+                     From concept and design to realisation, the studio offers a
+                     full creative service within branding, digital, spatial and print design.
+                  </p><br>
+                  <p>Small-scale to monumental, local to global, start-up or established,
+                     it is the studio's pursuit to discover the ultimate potential of a project or brief.
+                     Resolving each design task with clarity, creativity and authenticit</span>
+                  </p><br>
+                  <p>
+                     &#169;Tanc&#46;Studio, All rights reserved
+                  </p>
+               </div>
+
+               <!-- Services -->
+               <ul class="menu__services">
+                  <h2 class="menu__heading">Services</h2>
+                  <li>Brand strategy</li>
+                  <li>Print and Publishing</li>
+                  <li>Signage and Exhibition</li>
+                  <li>Event and Campaigns</li>
+                  <li>Concept and Design consult</li>
+                  <li>Brand strategy</li>
+                  <li>Print and Publishing design</li>
+                  <li>Signage and Exhibition design</li>
+                  <li>Event and Campaign design</li>
+                  <li><a href="">The creative Process</a></li>
+               </ul>
+
+               <!-- Contact -->
+               <div class="menu__contact">
+                  <address class="main__address">
+                     <h2 class="menu__heading">Contact</h2>
+                     <a  class="menu__link" href="mailto:hello@tanc.studio">hello&#64;tanc.studio</a>
+                     <p> UK +44 0 7703 342111<br>
+                        9 Zeal House<br>
+                        8 Deer Park Rd<br>
+                        London, SW19 3UU <br>
+                     </p>
+                  </address>
+                  <div class="menu__socialmedia">
+                     <a class="menu__link" href="•">Twitter</a>
+                     <a class="menu__link" href="•">Instagram</a>
+                     <a class="menu__link" href="•">Pinterest</a>
+                     <a class="menu__link" href="•">Behance</a>
+                  </div>
+                  <a href="#">Register for a Newsletter</a>
+               </div>
+
+               <div class="spacer"></div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</header>
+
+   <main class="gallery">
+         <figure class="project project--1">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--2">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--3">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--4">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--5">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--6">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--7">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+
+         <figure class="project project--8">
+            <a href="dbyt_project1.html">
+               <picture>
+                  <source media="(min-width: 1100px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 800px)" srcset="images/proj_1.jpg">
+                  <source media="(min-width: 500px)" srcset="images/proj_1.jpg">
+                  <img class="project__img" src="images/proj_1.jpg" alt="1st Project: ">
+               </picture>
+            </a>
+            <figcaption class="project__overlay">
+               <div class="project__caption">
+                  <h2 class="project__heading">Project 1</h2>
+                  <p class="project__txt">Project description</p>
+               </div>
+            </figcaption>
+         </figure>
+      </main>
+
+      <script>
+
+      function openNav() {
+         document.getElementById("mySidenav").style.width = "15vw";
+         document.getElementById("page__content").style.marginRight = "270px";
+         document.getElementById("hamburger").style.display = "none";
+      }
+
+      function closeNav() {
+         document.getElementById("mySidenav").style.width = "0";
+         document.getElementById("page__content").style.marginRight = "0";
+         document.getElementById("hamburger").style.display = "block";
+      }
+
+      </script>
+
+      <script>
+
+         $(function() {
+             var button = $('#login');
+             var box = $('#loginDropdown');
+             var form = $('#loginForm');
+             button.removeAttr('href');
+             button.mouseup(function(login) {
+                 box.toggle();
+                 button.toggleClass('active');
+             });
+             form.mouseup(function() {
+                 return false;
+             });
+             $(this).mouseup(function(login) {
+                 if(!($(login.target).parent('#login').length > 0)) {
+                     button.removeClass('active');
+                     box.hide();
+                 }
+             });
+         });
+      </script>
+   <footer>
+      <!-- <p>&copy;copyright 2018 DesignedbyT </p> -->
+   </footer>
+</body>
+</html>
+
+
+<!-- <div class="login">
+   <a href="#" id="login"><span>Log in</span></a>
+   <div id="loginDropdown">
+      <form id="loginForm">
+         <fieldset class="login__enterfields">
+            <input class="login__email" type="text" name="email" placeholder="Email" />
+            <input class="login__password" type="password" name="password" placeholder="Password" />
+         </fieldset>
+         <fieldset class="login__clickfields">
+            <input class="login__button" type="submit" value="Sign in"/>
+            <label class="login__checkbox" for="checkbox">
+            <input class="login__checkbox--txt" type="checkbox"/>Remember me</label>
+         </fieldset>
+      </form>
+   </div>
+</div> -->
